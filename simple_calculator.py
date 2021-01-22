@@ -16,7 +16,6 @@ Wpisz 1 dla dodawania, 2 dla odejmowania, 3 dla mnożenia,
 
     if x=='1' or x=='+':
         print('Dodawanie liczb')
-        wynik = 0
         print(sum(args))
     elif x=='2' or x=='-':
         print(f'Odejmowanie liczb od {args[0]}.')
